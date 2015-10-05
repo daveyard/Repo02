@@ -11,5 +11,8 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
         <http:listener config-ref="HTTP_Listener_Configuration" path="/" doc:name="HTTP"/>
         <logger message="Hello gittst02" level="INFO" doc:name="Logger"/>
         <logger message="Hello from log2" level="INFO" doc:name="Log2"/>
+        <logger level="INFO" doc:name="Log2"/>
+        <logger level="INFO" doc:name="Log3"/>
+        <logger level="INFO" doc:name="Logger4"/>
     </flow>
 </mule>
